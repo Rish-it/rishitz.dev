@@ -7,7 +7,7 @@ import { baseUrl } from '~/lib/constants/base-url';
 import { Layout } from '~/lib/layout';
 import '~/lib/styles/global.css';
 
-const creator = 'Agustinus Nathaniel';
+const creator = 'Rishit Sharma';
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   generator: 'Next.js',
   keywords: [
     'sozonome',
-    'agustinusnathaniel',
-    'Agustinus Nathaniel',
+    'rishitsharma',
+    'Rishit Sharma',
     'sznm',
     'sznm.dev',
   ],
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     telephone: false,
   },
   title: {
-    default: 'Agustinus Nathaniel - Digital Crafter | rishitz',
+    default: 'Rishit Sharma - Digital Crafter | rishitz',
     template: '%s | rishitz',
   },
   description: "Rishit Sharma's Dev Site | rishitz",

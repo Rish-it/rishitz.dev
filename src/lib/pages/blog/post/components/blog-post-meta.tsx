@@ -17,8 +17,8 @@ export const BlogPostMeta = ({ postData }: BlogPostMetaProps) => {
       images={[]}
       datePublished={new Date(postData.date).toISOString()}
       dateModified={new Date(postData.date).toISOString()}
-      authorName="Agustinus Nathaniel"
-      description={`A blog post by Agustinus Nathaniel explaining about ${postData.title}`}
+      authorName="Rishit Sharma"
+      description={`A blog post by Rishit Sharma explaining about ${postData.title}`}
     />
   );
 };

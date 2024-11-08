@@ -15,7 +15,7 @@ I think most would say 2020 is a roller coaster year. Even though, 2020 is one o
 
 ### Instagram Filter Creation
 
-I love to edit photos and playing around with colors. Then I learn how to make my own Instagram filter. Turned out facebook provides a tool dedicated for that called Spark AR Studio. You can make literally almost anything starting from a color filter, games, quizzes, anything you can think of when playing around with AR. I just want to edit colors so I just go with color filter. Making a color filter is quite simple, you only have to create a LUT, import it to your Spark AR projects as a layer, export it, and upload it to Spark AR and connect it with your instagram account. Check out some filter I made [here](https://www.instagram.com/agustinusnathaniel/).
+I love to edit photos and playing around with colors. Then I learn how to make my own Instagram filter. Turned out facebook provides a tool dedicated for that called Spark AR Studio. You can make literally almost anything starting from a color filter, games, quizzes, anything you can think of when playing around with AR. I just want to edit colors so I just go with color filter. Making a color filter is quite simple, you only have to create a LUT, import it to your Spark AR projects as a layer, export it, and upload it to Spark AR and connect it with your instagram account. Check out some filter I made [here](https://www.instagram.com/rishitsharma/).
 
 ### React Hooks and Context
 
@@ -23,7 +23,7 @@ React hooks been around but I've never learn or use it until I finally get my ha
 
 ### TailwindCSS
 
-2019 was a year where I finally get my hands on React and started to re-learn GatsbyJS (I tried to learn Gatsby before touching React at 2018 and it was a disaster idea). It was a really fun journey. But there's something I've been wanting to try but never accomplished at 2019....TailwindCSS. So, at 2020 I finally get my hands on it and it was really different than other styling frameworks I've ever used before (Bootstrap, Bulma, SemanticUI). I use it to rebuild my first personal site (agustinusnathaniel.com). But around the end of 2020 I re-write it again using Chakra-UI.
+2019 was a year where I finally get my hands on React and started to re-learn GatsbyJS (I tried to learn Gatsby before touching React at 2018 and it was a disaster idea). It was a really fun journey. But there's something I've been wanting to try but never accomplished at 2019....TailwindCSS. So, at 2020 I finally get my hands on it and it was really different than other styling frameworks I've ever used before (Bootstrap, Bulma, SemanticUI). I use it to rebuild my first personal site (rishitsharma.com). But around the end of 2020 I re-write it again using Chakra-UI.
 
 ### Svelte
 
@@ -43,7 +43,7 @@ most of the projects are just a little side projects for me to try implement som
 
 ### 1. Personal Site Revamp
 
-I re-write my personal site [agustinusnathaniel.com](https://agustinusnathaniel.com) using TailwindCSS and add blog section. At the end of the year I replace the TailwindCSS usage with Chakra UI.
+I re-write my personal site [rishitsharma.com](https://rishitsharma.com) using TailwindCSS and add blog section. At the end of the year I replace the TailwindCSS usage with Chakra UI.
 
 ### 2. Le-Cook
 

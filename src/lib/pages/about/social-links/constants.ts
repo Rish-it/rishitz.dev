@@ -36,7 +36,7 @@ export const socialLinks: Array<MotionLinkProps> = [
   // },
   // {
   //   platformName: 'Medium',
-  //   url: 'https://medium.com/@agustinusnathaniel',
+  //   url: 'https://medium.com/@rishitsharma',
   //   icon: FaMedium,
   // },
   // {
