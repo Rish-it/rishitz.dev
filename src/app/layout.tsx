@@ -21,13 +21,8 @@ export const metadata: Metadata = {
   creator,
   publisher: creator,
   generator: 'Next.js',
-  keywords: [
-    'sozonome',
-    'rishitsharma',
-    'Rishit Sharma',
-    'sznm',
-    'sznm.dev',
-  ],
+  keywords: ['rishitsharma', 'Rishit Sharma', 'rishitz.dev'],
+
   referrer: 'origin-when-cross-origin',
   appleWebApp: {
     title: 'rishitz.dev',

@@ -3,15 +3,12 @@
 import type { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
 
-import { env } from '~/lib/constants/env';
-
-const funPath = 'why-i';
-
 export const middleware = (req: NextRequest) => {
-  const isFunPath = !!req.nextUrl.href.includes(funPath);
+  const isFunPath = !!req.nextUrl.href.includes('why-i');
 
+  // Remove the redirect for 'why-i' path
   if (isFunPath) {
-    return NextResponse.redirect(env.MM_URL);
+    return NextResponse.next();
   }
 
   if (!req.nextUrl.pathname.startsWith('/s/')) {
@@ -24,13 +21,13 @@ export const middleware = (req: NextRequest) => {
     return NextResponse.rewrite(`${req.nextUrl.origin}/404`);
   }
 
-  return NextResponse.redirect(`${env.SHORTENER_HOST_NAME}/${slug}`);
+  return NextResponse.redirect(`${req.nextUrl.origin}/s/${slug}`);
 };
 
 export const config = {
   matcher: [
     '/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt).*)',
-    '/why-i:path*',
+    '/why-i:path*',  // Path for 'why-i' removed from redirect
     '/s/:path*',
   ],
 };

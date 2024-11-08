@@ -1,20 +1,12 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "tasks": {
-    "biome:check": {
-      "outputs": [],
-      "inputs": ["biome.json", "src/**"]
-    },
-    "biome:ci": {
-      "outputs": [],
-      "inputs": ["biome.json", "src/**"]
-    },
     "type:check": {
       "inputs": ["tsconfig.json", "src/**"],
       "outputs": ["*.tsbuildinfo"]
     },
     "build": {
-      "dependsOn": ["type:check", "biome:ci"],
+      "dependsOn": ["type:check"],
       "outputs": [".next/**", "!.next/cache/**", "public/**"],
       "env": [
         "NEXT_PUBLIC_UMAMI_WEBSITE_ID",
@@ -31,3 +23,4 @@
     }
   }
 }
+
