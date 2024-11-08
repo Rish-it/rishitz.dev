@@ -13,10 +13,10 @@ export const HeroSection = () => {
         alignSelf={['none', 'center']}
       >
         <Heading as="h1" size="xl">
-          Hello! I&apos;m Nathan.
+          Hello! I&apos;m Rishit.
         </Heading>
         <Text fontSize={{ base: 'md', md: 'xl' }}>
-          Driving Business Growth with User-Centric Products.
+          Driving Software Development with User-Centric Products.
         </Text>
         <Flex alignItems="center" gap={2}>
           <Button as={Link} href="/projects">

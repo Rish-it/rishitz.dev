@@ -1,9 +1,8 @@
 ---
-title: Public APIs
-projectLink: https://publicapis.sznm.dev
-repoLink: https://github.com/sozonome/pub-apis
+title: ZapFlow
+projectLink: https://zapflow-blond.vercel.app/
 description: Find public APIs for your next projects.
-date: "2020-12-25"
+date: "2024-06-25"
 icon: "/app_icons/pub-apis.svg"
 thumbnail: "/app_preview/public-apis.png"
 thumbnailDark: "/app_preview/public-apis-dark.png"

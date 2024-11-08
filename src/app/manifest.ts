@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 
 const manifest = (): MetadataRoute.Manifest => ({
   short_name: 'sznm',
-  name: 'sznm.dev',
+  name: 'rishitz.dev',
   lang: 'en',
   start_url: '/',
   background_color: '#444444',

@@ -1,11 +1,9 @@
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata, Viewport } from 'next';
-import Script from 'next/script';
 import NextTopLoader from 'nextjs-toploader';
 
 import { Providers } from '~/app/providers';
 import { baseUrl } from '~/lib/constants/base-url';
-import { env } from '~/lib/constants/env';
 import { Layout } from '~/lib/layout';
 import '~/lib/styles/global.css';
 
@@ -18,8 +16,8 @@ export const metadata: Metadata = {
       'application/rss+xml': `${baseUrl}/rss.xml`,
     },
   },
-  applicationName: 'sznm.dev',
-  authors: { name: 'sozonome' },
+  applicationName: 'rishitz.dev',
+  authors: { name: 'Rishit' },
   creator,
   publisher: creator,
   generator: 'Next.js',
@@ -32,31 +30,31 @@ export const metadata: Metadata = {
   ],
   referrer: 'origin-when-cross-origin',
   appleWebApp: {
-    title: 'sznm.dev',
+    title: 'rishitz.dev',
     statusBarStyle: 'default',
   },
   formatDetection: {
     telephone: false,
   },
   title: {
-    default: 'Agustinus Nathaniel - Digital Crafter | sozonome',
-    template: '%s | sozonome',
+    default: 'Agustinus Nathaniel - Digital Crafter | rishitz',
+    template: '%s | rishitz',
   },
-  description: "Agustinus Nathaniel's Dev Site | sozonome",
+  description: "Rishit Sharma's Dev Site | rishitz",
   openGraph: {
     url: 'https://sznm.dev',
-    title: 'sozonome | Digital Crafter',
-    description: "Agustinus Nathaniel's Dev Site",
+    title: 'rishitz | Digital Crafter',
+    description: "Rishit Sharma's Dev Site | rishitz",
     images: [
       {
         url: 'https://og.sznm.dev/api/generate?heading=sozonome&text=https://sznm.dev',
         alt: 'sznm.dev og-image',
       },
     ],
-    siteName: 'sozonome',
+    siteName: 'rishitz',
   },
   twitter: {
-    creator: '@sozonome',
+    creator: '@irishit_sharma',
     card: 'summary_large_image',
   },
 };
@@ -82,14 +80,6 @@ const RootLayout = ({ children }: RootLayoutProps) => {
           <Layout>{children}</Layout>
         </Providers>
 
-        {/* umami self-hosted analytics */}
-        <Script
-          async
-          defer
-          data-website-id={env.NEXT_PUBLIC_UMAMI_WEBSITE_ID}
-          src={env.NEXT_PUBLIC_UMAMI_SRC}
-          data-domains="sznm.dev"
-        />
         <SpeedInsights />
       </body>
     </html>

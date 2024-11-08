@@ -40,12 +40,12 @@ export const Footer = () => {
       <Text fontSize={['xs', 'sm']}>
         &copy; {new Date().getFullYear()}{' '}
         <Link
-          href="https://agustinusnathaniel.com"
+          href="https://github.com/rish-it"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Agustinus Nathaniel's site: https://agustinusnathaniel.com"
+          aria-label="Rishit's Github site: https://github.com/rish-it"
         >
-          Agustinus Nathaniel
+          Rishit Sharma
         </Link>
       </Text>
     </Stack>
